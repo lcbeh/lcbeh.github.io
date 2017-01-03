@@ -52,6 +52,7 @@ table {
 */
 body {
   background-color: #f4f4f4;
+	background-color: rgba(242,240,234, 0.7);
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
 }
@@ -62,19 +63,25 @@ li {
 }
 
 .side {
-  border-right: 1px solid #c0b283;
-  color: #af9d61;
+  color: rgb(175,157,97);
   float: left;
-  margin: 4% 0 0 5%;
+	font-size: 18px;
+	font-weight: 900;
+  margin: 6.5% 0 0 5%;
   padding: 0 2% 0 2%;
-  height: 500px;
+  height: 400px;
   width: 20%;
+	position: fixed;
+}
+
+.side p {
+	font-size: 14px;
 }
 
 .sections {
   color: rgba(55, 55, 55, 0.6);
-  float: left;
-  margin: 4%;
+  float: right;
+  margin: 7% 10%;
   width: 55%;
 }
 
@@ -84,34 +91,50 @@ li {
 }
 
 h1 {
-  margin: 2% 0 0 7%;
-  color: rgba(55, 55, 55, 0.7);
-  font-size: 30px;
+  color: rgba(55, 55, 55, 0.9);
+	color: #4056a1;
+  font-size: 24px;
+	font-weight: 900;
+	position: fixed;
+	display: block;
 }
 
 
 h2 {
-  border-bottom: 1px solid rgba(55, 55, 55, 0.3);
-  color: rgba(55, 55, 55, 0.7);
-  font-size: 27px;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.5);
+  color: rgba(55, 55, 55, 0.8);
+  font-size: 20px;
+	font-weight: 900;
   padding-bottom: 1%;
 }
 
 h3 {
   color: rgba(55, 55, 55, 0.7);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
   margin-bottom: 1%;
   padding-bottom: 1%;
 }
 
 p {
+	font-size: 15px;
   font-weight: lighter;
 }
 
+.technologies {
+	font-size: 12px;
+}
+
+.name {
+	margin: 4% 7%;
+
+}
 .about p {
   color: rgb(55, 55, 55);
-  text-align: justify;
+}
+
+.footer {
+	font-weight:bold;
 }
 
 /*===================================================
@@ -120,6 +143,7 @@ link
 
 a:link {
   text-decoration: none;
+	color: rgb(175,157,97);
 }
 
 a:visited {
@@ -127,5 +151,13 @@ a:visited {
 }
 
 a:hover {
-  color: rgba(55, 55, 55, 0.7);
+  color: rgba(55, 55, 55, 0.8);
+}
+
+h3 a:link {
+	color: #4056a1;
+}
+
+h3 a:hover {
+  color: #4056a1;
 }
